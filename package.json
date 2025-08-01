@@ -1,0 +1,16 @@
+{
+  "name": "@gushen610140/hucky",
+  "version": "0.0.2",
+  "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bin": {
+    "hucky": "bin/cli.js"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "download-git-repo": "^3.0.2"
+  }
+}
